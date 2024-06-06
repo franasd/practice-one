@@ -1,0 +1,51 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* HEADER */
+header{
+    height: 100px;
+    background: #9595f3;
+    padding: 0 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+.logo{
+    text-transform: uppercase;
+    color: #51eb94;
+    font-weight: bold;
+    
+
+}
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s; 
+}
+.mostrar-menu,
+.esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+
+}
+.mostrar-menu{
+    order: 1;
+
+}
+.menu a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{
+    color : #6cc091;
+}
+#check{
+    display: none;
+}
